@@ -56,6 +56,9 @@
 				<includes>
 					<include>desc/**/*.xml</include>
 				</includes>
+				<excludes>
+					<exclude>desc/**/*StyleMap.xml</exclude>
+				</excludes>
 			</resource>
 			<resource>
 				<directory>resources/</directory>
